@@ -1,6 +1,6 @@
 ﻿namespace TrabajoAula2021
 {
-    partial class Form1
+    partial class FormLogin
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -33,19 +33,21 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxPass = new System.Windows.Forms.TextBox();
             this.buttonConfirmar = new System.Windows.Forms.Button();
+            this.buttonprueba = new System.Windows.Forms.Button();
+            this.labelprueba = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBoxName
             // 
             this.textBoxName.Location = new System.Drawing.Point(121, 43);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxName.Size = new System.Drawing.Size(101, 20);
             this.textBoxName.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(71, 46);
+            this.label1.Location = new System.Drawing.Point(71, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 1;
@@ -75,19 +77,40 @@
             this.buttonConfirmar.TabIndex = 4;
             this.buttonConfirmar.Text = "Confirmar";
             this.buttonConfirmar.UseVisualStyleBackColor = true;
+            this.buttonConfirmar.Click += new System.EventHandler(this.buttonConfirmar_Click);
             // 
-            // Form1
+            // buttonprueba
+            // 
+            this.buttonprueba.Location = new System.Drawing.Point(32, 208);
+            this.buttonprueba.Name = "buttonprueba";
+            this.buttonprueba.Size = new System.Drawing.Size(75, 23);
+            this.buttonprueba.TabIndex = 5;
+            this.buttonprueba.Text = "buttonprueba";
+            this.buttonprueba.UseVisualStyleBackColor = true;
+            this.buttonprueba.Click += new System.EventHandler(this.buttonprueba_Click);
+            // 
+            // labelprueba
+            // 
+            this.labelprueba.AutoSize = true;
+            this.labelprueba.Location = new System.Drawing.Point(173, 213);
+            this.labelprueba.Name = "labelprueba";
+            this.labelprueba.Size = new System.Drawing.Size(0, 13);
+            this.labelprueba.TabIndex = 6;
+            // 
+            // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.labelprueba);
+            this.Controls.Add(this.buttonprueba);
             this.Controls.Add(this.buttonConfirmar);
             this.Controls.Add(this.textBoxPass);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxName);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FormLogin";
+            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -100,6 +123,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxPass;
         private System.Windows.Forms.Button buttonConfirmar;
+        private System.Windows.Forms.Button buttonprueba;
+        private System.Windows.Forms.Label labelprueba;
     }
 }
 

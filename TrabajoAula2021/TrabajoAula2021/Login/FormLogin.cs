@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TrabajoAula2021
+namespace TrabajoAula2021.Login
 {
     public partial class FormLogin : Form
     {
@@ -17,14 +17,14 @@ namespace TrabajoAula2021
             InitializeComponent();
         }
 
-        private void buttonprueba_Click(object sender, EventArgs e)
+        private void buttonPrueba_Click(object sender, EventArgs e)
         {
-            labelprueba.Text=("Funciona");
+            labelprueba.Text = ("Prueba");
         }
 
         private void buttonConfirmar_Click(object sender, EventArgs e)
         {
-            labelprueba.Text = ("confirmar");
+            labelprueba.Text = ("Confirmar");
         }
     }
 }

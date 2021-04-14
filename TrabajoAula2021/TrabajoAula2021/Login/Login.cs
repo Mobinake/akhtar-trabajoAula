@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TrabajoAula2021.Login
 {
-    public partial class FormLogin : Form
+    public partial class Login : Form
     {
-        public FormLogin()
+        public Login()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace TrabajoAula2021.Login
 {
-    partial class FormLogin
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.

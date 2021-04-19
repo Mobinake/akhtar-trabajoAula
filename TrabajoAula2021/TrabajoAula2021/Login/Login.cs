@@ -26,5 +26,10 @@ namespace TrabajoAula2021.Login
         {
             labelprueba.Text = ("Confirmar");
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

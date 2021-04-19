@@ -98,7 +98,7 @@
             this.labelPass.TabIndex = 6;
             this.labelPass.Text = "Contraseña";
             // 
-            // FormLogin
+            // Login
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(284, 261);
@@ -109,8 +109,9 @@
             this.Controls.Add(this.buttonConfirmar);
             this.Controls.Add(this.buttonPrueba);
             this.Controls.Add(this.labelprueba);
-            this.Name = "FormLogin";
+            this.Name = "Login";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

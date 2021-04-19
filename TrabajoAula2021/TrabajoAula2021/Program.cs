@@ -16,21 +16,25 @@ namespace TrabajoAula2021
         [STAThread]
         static void Main()
         {
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new FormLogin());
-
+            /*Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Login.Login());
+            */
             //Pilas en C#
-            Console.WriteLine("Pilas: ");
+            Console.WriteLine("Pilas:");
             Pilas MiPila = new Pilas();
             MiPila.ImprimirPilas();
+            
 
-            //Colas en C#
+
+        //Colas en C#
             Console.WriteLine("Colas: ");
-
-
-
+            Colas MiCola = new Colas();
+            MiCola.ImprimirColas();
+            
             //Listas en C#
+            
+            Console.WriteLine("Listas: ");
             Lista ListaAlumnos = new Lista();
             ListaAlumnos.ImprimirLista();
             

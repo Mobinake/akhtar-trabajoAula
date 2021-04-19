@@ -16,16 +16,13 @@ namespace TrabajoAula2021.Clases
 
         public void ImprimirPilas()
         {
-            string palabra;
             Stack<string> MiPila = new Stack<string>();
-            MiPila.Push("LP2");
-            MiPila.Push("BuenosDias");
             MiPila.Push("Hola");
-
-            for(byte i = 3; i < 0; i--)
+            MiPila.Push("Buendia");
+            MiPila.Push("Atun");
+            while (MiPila.Count > 0)
             {
-                palabra = (string)MiPila.Pop();
-                Console.WriteLine(palabra);
+                Console.WriteLine(MiPila.Pop());
             }
         }
         

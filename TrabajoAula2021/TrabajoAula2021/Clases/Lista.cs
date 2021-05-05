@@ -30,5 +30,25 @@ namespace TrabajoAula2021.Clases
                 Console.WriteLine($"Nombre de alumnos: {nombre}");
             }
         }
+
+        public void InsertarInt()
+        {
+            int suma = 0; float prom;
+
+            Lista ListaNum = new Lista();
+
+            for (int i = 0; i < 25; i++)
+            {
+                Random random = new Random(DateTime.Now.Millisecond);
+                int value = random.Next(100);
+                suma = suma + value;
+                Console.WriteLine("El numero a cargar es" + value);
+            }
+            prom = suma / 25;
+            Console.WriteLine("\nLa suma es: " + suma);
+            Console.WriteLine("El promedio es de: " + prom);
+            
+            
+        }
     }
 }

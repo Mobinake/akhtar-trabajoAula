@@ -16,6 +16,7 @@ namespace TrabajoAula2021
         [STAThread]
         static void Main()
         {
+            #region Pruebas
             /*Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Login.Login());
@@ -35,7 +36,10 @@ namespace TrabajoAula2021
             Lista ListaAlumnos = new Lista();
             ListaAlumnos.ImprimirLista();
             */
+            #endregion
 
+            #region Primera Parcial
+            /*
             //Primera parcial LP2, colas
             Console.WriteLine("Cola parcial:");
             Colas ColaParcial = new Colas();
@@ -47,7 +51,7 @@ namespace TrabajoAula2021
                 ColaParcial.InsertarCola(valor);
             }
             ColaParcial.ImprimirColas();
-
+            #end
             //Primera parcial LP2, pilas
             Console.WriteLine("Pila Parcial: ");
             Pilas PilaParcial = new Pilas();
@@ -59,7 +63,12 @@ namespace TrabajoAula2021
             Console.WriteLine("El valor devuelto por la funcion creada es:" + PilaParcial.CantValores(PilaOriginal, PilaOriginal.Count()));
             
             Console.WriteLine("final");//aqui poner un punto de interrupcion y ver la salida
+            */
+            #endregion
 
+            Lista ListaSumada = new Lista();
+            //ListaSumada.
+            ListaSumada.InsertarInt();
             
         }
     }

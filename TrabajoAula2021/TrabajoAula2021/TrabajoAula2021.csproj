@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Busqueda_ABB.cs" />
     <Compile Include="Clases\Colas.cs" />
     <Compile Include="Clases\Lista.cs" />
     <Compile Include="Clases\Pilas.cs" />

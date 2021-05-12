@@ -69,7 +69,20 @@ namespace TrabajoAula2021
             Lista ListaSumada = new Lista();
             //ListaSumada.
             ListaSumada.InsertarInt();
-            
+            Lista ListaInsert = new Lista();
+            Console.WriteLine(ListaInsert.ListaLigada(10));
+
+            #region
+
+            Nodo arbol = new Nodo();
+            arbol.info = 10;
+            arbol.izq = null;
+            arbol.der = null;
+            Busqueda_ABB arbol2 = new Busqueda_ABB();
+            arbol2.Busqueda_ABB_Mobin(arbol, arbol.info);
+
+            #endregion
+
         }
     }
 }

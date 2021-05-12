@@ -36,7 +36,7 @@ namespace TrabajoAula2021.Clases
             int suma = 0; float prom;
 
             Lista ListaNum = new Lista();
-
+            //insertar enteros
             for (int i = 0; i < 25; i++)
             {
                 Random random = new Random(DateTime.Now.Millisecond);
@@ -47,8 +47,15 @@ namespace TrabajoAula2021.Clases
             prom = suma / 25;
             Console.WriteLine("\nLa suma es: " + suma);
             Console.WriteLine("El promedio es de: " + prom);
-            
-            
+        }
+
+        public string ListaLigada(int largo)
+        {
+            //generar lista de caracteres
+            Random random = new Random();
+            const string pal = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            //cantidad devuelta definida por largo, 
+            return new string(Enumerable.Repeat(pal, largo).Select(s => s[random.Next(s.Length)]).ToArray());
         }
     }
 }
